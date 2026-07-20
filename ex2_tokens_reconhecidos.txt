@@ -1,0 +1,41 @@
+abre_buteco -> abre chaves
+dose -> palavra reservada (tipo inteiro)
+opcao_cliente -> identificador
+desce -> fim de instrucao
+chama_truco -> comando de saida
+( -> abre parenteses
+"Escolha a opção do cardápio: " -> literal de string
+) -> fecha parenteses
+desce -> fim de instrucao
+pede_pro_garcom -> comando de entrada
+( -> abre parenteses
+opcao_cliente -> identificador
+) -> fecha parenteses
+desce -> fim de instrucao
+cardapio -> estrutura de selecao
+( -> abre parenteses
+opcao_cliente -> identificador
+) -> fecha parenteses
+abre_buteco -> abre chaves
+pedido -> opção do cardápio
+1 -> número
+: -> dois pontos
+chama_truco -> comando de saida
+( -> abre parenteses
+"Saindo uma porcao de batata frita!" -> literal de string
+) -> fecha parenteses
+desce -> fim de instrucao
+lei_seca -> comando de parar
+desce -> fim de instrucao
+pedido -> opção do cardápio
+2 -> número
+: -> dois pontos
+chama_truco -> comando de saida
+( -> abre parenteses
+"Saindo um frango a passarinho!" -> literal de string
+) -> fecha parenteses
+desce -> fim de instrucao
+lei_seca -> comando de parar
+desce -> fim de instrucao
+fecha_buteco -> fecha chaves
+fecha_buteco -> fecha chaves

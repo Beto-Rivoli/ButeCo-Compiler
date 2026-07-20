@@ -1,0 +1,19 @@
+abre_buteco
+
+    dose opcao_cliente desce
+
+    chama_truco("Escolha a opção do cardápio: ") desce
+    pede_pro_garcom(opcao_cliente) desce
+
+    $ Estrutura switch case (cardapio)
+    cardapio (opcao_cliente) abre_buteco
+        pedido 1:
+            chama_truco("Saindo uma porcao de batata frita!") desce
+        lei_seca desce
+        
+        pedido 2:
+            chama_truco("Saindo um frango a passarinho!") desce
+        lei_seca desce
+    fecha_buteco
+    
+fecha_buteco

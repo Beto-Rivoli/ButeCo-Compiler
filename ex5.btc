@@ -1,0 +1,44 @@
+abre_buteco
+    dose iterador desce
+    dose limite_rodadas desce
+    dose contador_impar desce
+    
+    limite_rodadas anota 5 desce
+    contador_impar anota 0 desce
+
+    chama_truco("--- Iniciando a contagem de rodadas na mesa ---") desce
+
+    $ Laco For com atribuicao, condicao e passo separados por 'desce'
+    rodada (iterador anota 1 desce iterador < limite_rodadas desce iterador anota iterador + 1 desce) abre_buteco
+        
+        chama_truco("Rodada numero:") desce
+        chama_truco(iterador) desce
+
+        $ Verifica se a rodada atual eh impar usando MOD
+        se_ta_pago (iterador mod 2 nao_bate 0) abre_buteco
+            chama_truco("Essa rodada eh impar! Somando no contador.") desce
+            contador_impar anota contador_impar + 1 desce
+        fecha_buteco
+        se_nao abre_buteco
+            chama_truco("Essa rodada eh par! O garcom passa reto.") desce
+        fecha_buteco
+        
+        chama_truco("--------------------------------------------") desce
+    fecha_buteco
+
+    dose copia_final desce
+    
+    $ Copia o valor de uma variavel para outra
+    apelidar copia_final contador_impar desce
+
+    chama_truco("Total de rodadas impares contadas:") desce
+    chama_truco(copia_final) desce
+
+    $ Operador de subtracao para aplicar um desconto
+    copia_final anota copia_final - 1 desce
+
+    chama_truco("O chefe deu desconto de uma rodada! Valor final indo pro caixa:") desce
+    chama_truco(copia_final) desce
+
+    saidera(copia_final) desce
+fecha_buteco

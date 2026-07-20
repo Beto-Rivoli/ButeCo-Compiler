@@ -1,0 +1,23 @@
+abre_buteco
+    copo_vazio situacao_mesa desce
+    pre_pago litrao saldo_cliente desce
+    dose status_caloteiro desce
+
+    saldo_cliente anota 0 desce
+    status_caloteiro anota ta_pendurado desce
+
+    $saldo_cliente anota 0 desce
+    $status_caloteiro anota ta_pendurado desce
+
+    $ Avaliacao com operadores logicos (AND, OR, NOT e relacionais de igualdade)
+    se_ta_pago (saldo_cliente bate_com 0 e status_caloteiro bate_com ta_pendurado) abre_buteco
+        chama_truco("Alerta! Cliente sem saldo e com historico ruim.") desce
+    fecha_buteco
+    se_nao abre_buteco
+        $ Sem parenteses internos para respeitar a regra da gramatica
+        se_ta_pago (nao saldo_cliente bate_com 0 ou status_caloteiro nao_bate ta_pendurado) abre_buteco
+            chama_truco("Pode servir a mesa, tudo certo!") desce
+        fecha_buteco
+    fecha_buteco
+
+fecha_buteco

@@ -1,0 +1,50 @@
+abre_buteco -> abre chaves
+litrao -> palavra reservada (tipo float)
+conta_mesa -> identificador
+desce -> fim de instrucao
+litrao -> palavra reservada (tipo float)
+amigo1 -> identificador
+anota -> atribuicao
+amigo2 -> identificador
+anota -> atribuicao
+amigo3 -> identificador
+desce -> fim de instrucao
+dose -> palavra reservada (tipo inteiro)
+taxa_garcom -> identificador
+desce -> fim de instrucao
+taxa_garcom -> identificador
+anota -> atribuicao
+15 -> número
+desce -> fim de instrucao
+conta_mesa -> identificador
+anota -> atribuicao
+150,50 -> número
++ -> operador aritmetico (soma)
+taxa_garcom -> identificador
+/ -> operador aritmetico (divisao)
+1 -> número
+desce -> fim de instrucao
+amigo1 -> identificador
+; -> separador
+amigo2 -> identificador
+; -> separador
+amigo3 -> identificador
+racha -> operador de distribuicao
+conta_mesa -> identificador
+desce -> fim de instrucao
+chama_truco -> comando de saida
+( -> abre parenteses
+"Valor por pessoa calculado!" -> literal de string
+) -> fecha parenteses
+desce -> fim de instrucao
+chama_truco -> comando de saida
+( -> abre parenteses
+amigo1 -> identificador
+) -> fecha parenteses
+desce -> fim de instrucao
+saidera -> retorno de função
+( -> abre parenteses
+conta_mesa -> identificador
+) -> fecha parenteses
+desce -> fim de instrucao
+fecha_buteco -> fecha chaves

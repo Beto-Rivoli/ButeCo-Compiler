@@ -1,0 +1,17 @@
+abre_buteco
+    $ Declaracao de variaveis
+    litrao conta_mesa desce
+    litrao amigo1 anota amigo2 anota amigo3 desce
+    dose taxa_garcom desce  
+
+    $ Operadores aritmeticos basicos (soma e divisao)
+    taxa_garcom anota 15 desce
+    conta_mesa anota 150,50 + taxa_garcom / 1 desce
+
+    $ Dividindo a conta igualitariamente entre 3 variaveis
+    amigo1; amigo2; amigo3 racha conta_mesa desce
+
+    chama_truco("Valor por pessoa calculado!") desce
+    chama_truco(amigo1) desce
+    saidera(conta_mesa) desce
+fecha_buteco

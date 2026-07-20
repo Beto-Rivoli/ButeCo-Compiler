@@ -1,0 +1,23 @@
+abre_buteco
+    
+    dose um anota 0 desce
+    dose dois anota 0 desce
+    dose tres anota 1 desce
+    dose n desce
+
+    pede_pro_garcom(n) desce 
+
+    dose n2 anota n desce 
+    enche_o_copo(n > 0) abre_buteco
+
+        um anota dois desce
+        dois anota tres desce
+        tres anota um + dois desce
+
+        n anota n - 1 desce
+    fecha_buteco
+
+    chama_truco("O numero desejado da cadeia de fibonacci é: ") desce
+    chama_truco(dois) desce
+
+fecha_buteco

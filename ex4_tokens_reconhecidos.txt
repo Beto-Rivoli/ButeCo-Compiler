@@ -1,0 +1,57 @@
+abre_buteco -> abre chaves
+dose -> palavra reservada (tipo inteiro)
+capacidade_copo -> identificador
+desce -> fim de instrucao
+dose -> palavra reservada (tipo inteiro)
+gole -> identificador
+desce -> fim de instrucao
+gole -> identificador
+anota -> atribuicao
+0 -> número
+desce -> fim de instrucao
+chama_truco -> comando de saida
+( -> abre parenteses
+"Qual a capacidade do seu copo em ml?" -> literal de string
+) -> fecha parenteses
+desce -> fim de instrucao
+pede_pro_garcom -> comando de entrada
+( -> abre parenteses
+capacidade_copo -> identificador
+) -> fecha parenteses
+desce -> fim de instrucao
+capacidade_copo -> identificador
+anota -> atribuicao
+capacidade_copo -> identificador
+* -> operador aritmetico (multiplicacao)
+2 -> número
+desce -> fim de instrucao
+enche_o_copo -> laço de repetição
+( -> abre parenteses
+gole -> identificador
+<= -> operador relacional (menor ou igual)
+capacidade_copo -> identificador
+) -> fecha parenteses
+abre_buteco -> abre chaves
+chama_truco -> comando de saida
+( -> abre parenteses
+"Virando o copo..." -> literal de string
+) -> fecha parenteses
+desce -> fim de instrucao
+desce_uma -> palavra reservada
+gole -> identificador
+desce -> fim de instrucao
+fecha_buteco -> fecha chaves
+se_ta_pago -> comando condicional
+( -> abre parenteses
+gole -> identificador
+>= -> operador relacional (maior ou igual)
+10 -> número
+) -> fecha parenteses
+abre_buteco -> abre chaves
+chama_truco -> comando de saida
+( -> abre parenteses
+"O cliente bebeu bastante!" -> literal de string
+) -> fecha parenteses
+desce -> fim de instrucao
+fecha_buteco -> fecha chaves
+fecha_buteco -> fecha chaves

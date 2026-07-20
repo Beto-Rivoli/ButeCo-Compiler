@@ -1,0 +1,68 @@
+abre_buteco -> abre chaves
+dose -> palavra reservada (tipo inteiro)
+um -> identificador
+anota -> atribuicao
+0 -> número
+desce -> fim de instrucao
+dose -> palavra reservada (tipo inteiro)
+dois -> identificador
+anota -> atribuicao
+0 -> número
+desce -> fim de instrucao
+dose -> palavra reservada (tipo inteiro)
+tres -> identificador
+anota -> atribuicao
+1 -> número
+desce -> fim de instrucao
+dose -> palavra reservada (tipo inteiro)
+n -> identificador
+desce -> fim de instrucao
+pede_pro_garcom -> comando de entrada
+( -> abre parenteses
+n -> identificador
+) -> fecha parenteses
+desce -> fim de instrucao
+dose -> palavra reservada (tipo inteiro)
+n2 -> identificador
+anota -> atribuicao
+n -> identificador
+desce -> fim de instrucao
+enche_o_copo -> laço de repetição
+( -> abre parenteses
+n -> identificador
+> -> operador relacional (maior)
+0 -> número
+) -> fecha parenteses
+abre_buteco -> abre chaves
+um -> identificador
+anota -> atribuicao
+dois -> identificador
+desce -> fim de instrucao
+dois -> identificador
+anota -> atribuicao
+tres -> identificador
+desce -> fim de instrucao
+tres -> identificador
+anota -> atribuicao
+um -> identificador
++ -> operador aritmetico (soma)
+dois -> identificador
+desce -> fim de instrucao
+n -> identificador
+anota -> atribuicao
+n -> identificador
+- -> operador aritmetico (subtracao)
+1 -> número
+desce -> fim de instrucao
+fecha_buteco -> fecha chaves
+chama_truco -> comando de saida
+( -> abre parenteses
+"O numero desejado da cadeia de fibonacci é: " -> literal de string
+) -> fecha parenteses
+desce -> fim de instrucao
+chama_truco -> comando de saida
+( -> abre parenteses
+dois -> identificador
+) -> fecha parenteses
+desce -> fim de instrucao
+fecha_buteco -> fecha chaves

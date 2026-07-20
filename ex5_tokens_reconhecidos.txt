@@ -1,0 +1,125 @@
+abre_buteco -> abre chaves
+dose -> palavra reservada (tipo inteiro)
+iterador -> identificador
+desce -> fim de instrucao
+dose -> palavra reservada (tipo inteiro)
+limite_rodadas -> identificador
+desce -> fim de instrucao
+dose -> palavra reservada (tipo inteiro)
+contador_impar -> identificador
+desce -> fim de instrucao
+limite_rodadas -> identificador
+anota -> atribuicao
+5 -> número
+desce -> fim de instrucao
+contador_impar -> identificador
+anota -> atribuicao
+0 -> número
+desce -> fim de instrucao
+chama_truco -> comando de saida
+( -> abre parenteses
+"--- Iniciando a contagem de rodadas na mesa ---" -> literal de string
+) -> fecha parenteses
+desce -> fim de instrucao
+rodada -> laço de repetição
+( -> abre parenteses
+iterador -> identificador
+anota -> atribuicao
+1 -> número
+desce -> fim de instrucao
+iterador -> identificador
+< -> operador relacional (menor)
+limite_rodadas -> identificador
+desce -> fim de instrucao
+iterador -> identificador
+anota -> atribuicao
+iterador -> identificador
++ -> operador aritmetico (soma)
+1 -> número
+desce -> fim de instrucao
+) -> fecha parenteses
+abre_buteco -> abre chaves
+chama_truco -> comando de saida
+( -> abre parenteses
+"Rodada numero:" -> literal de string
+) -> fecha parenteses
+desce -> fim de instrucao
+chama_truco -> comando de saida
+( -> abre parenteses
+iterador -> identificador
+) -> fecha parenteses
+desce -> fim de instrucao
+se_ta_pago -> comando condicional
+( -> abre parenteses
+iterador -> identificador
+mod -> operador aritmetico (modulo)
+2 -> número
+nao_bate -> operador relacional (desigualdade)
+0 -> número
+) -> fecha parenteses
+abre_buteco -> abre chaves
+chama_truco -> comando de saida
+( -> abre parenteses
+"Essa rodada eh impar! Somando no contador." -> literal de string
+) -> fecha parenteses
+desce -> fim de instrucao
+contador_impar -> identificador
+anota -> atribuicao
+contador_impar -> identificador
++ -> operador aritmetico (soma)
+1 -> número
+desce -> fim de instrucao
+fecha_buteco -> fecha chaves
+se_nao -> sentença alternativa
+abre_buteco -> abre chaves
+chama_truco -> comando de saida
+( -> abre parenteses
+"Essa rodada eh par! O garcom passa reto." -> literal de string
+) -> fecha parenteses
+desce -> fim de instrucao
+fecha_buteco -> fecha chaves
+chama_truco -> comando de saida
+( -> abre parenteses
+"--------------------------------------------" -> literal de string
+) -> fecha parenteses
+desce -> fim de instrucao
+fecha_buteco -> fecha chaves
+dose -> palavra reservada (tipo inteiro)
+copia_final -> identificador
+desce -> fim de instrucao
+apelidar -> palavra reservada
+copia_final -> identificador
+contador_impar -> identificador
+desce -> fim de instrucao
+chama_truco -> comando de saida
+( -> abre parenteses
+"Total de rodadas impares contadas:" -> literal de string
+) -> fecha parenteses
+desce -> fim de instrucao
+chama_truco -> comando de saida
+( -> abre parenteses
+copia_final -> identificador
+) -> fecha parenteses
+desce -> fim de instrucao
+copia_final -> identificador
+anota -> atribuicao
+copia_final -> identificador
+- -> operador aritmetico (subtracao)
+1 -> número
+desce -> fim de instrucao
+chama_truco -> comando de saida
+( -> abre parenteses
+"O chefe deu desconto de uma rodada! Valor final indo pro caixa:" -> literal de string
+) -> fecha parenteses
+desce -> fim de instrucao
+chama_truco -> comando de saida
+( -> abre parenteses
+copia_final -> identificador
+) -> fecha parenteses
+desce -> fim de instrucao
+saidera -> retorno de função
+( -> abre parenteses
+copia_final -> identificador
+) -> fecha parenteses
+desce -> fim de instrucao
+fecha_buteco -> fecha chaves

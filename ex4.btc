@@ -1,0 +1,26 @@
+abre_buteco
+
+    dose capacidade_copo desce
+    dose gole desce
+
+    gole anota 0 desce
+
+    chama_truco("Qual a capacidade do seu copo em ml?") desce
+    pede_pro_garcom(capacidade_copo) desce
+
+    $ Multiplicando para gerar o volume total
+    capacidade_copo anota capacidade_copo * 2 desce
+
+    $ Laco While
+    enche_o_copo (gole <= capacidade_copo) abre_buteco
+        chama_truco("Virando o copo...") desce
+        
+        $ Incremento direto
+        desce_uma gole desce
+    fecha_buteco
+
+    se_ta_pago (gole >= 10) abre_buteco
+        chama_truco("O cliente bebeu bastante!") desce
+    fecha_buteco
+
+fecha_buteco
