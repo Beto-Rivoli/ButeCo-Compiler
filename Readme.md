@@ -49,8 +49,8 @@ flex lexico.l
 
 *Para Windows:*
 ```bash
-win_flex -dy sintatico.y
-win_bison lexico.l
+win_bison -dy sintatico.y
+win_flex lexico.l
 ```
 
 *Compilando em ambos:*
