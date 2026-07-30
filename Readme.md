@@ -104,3 +104,11 @@ Para referência rápida, algumas das palavras reservadas e estruturas reconheci
 - Tipos de variáveis: `dose` (`int`), `litrao` (`float`), `petisco` (`char`)
 - Entrada e saída: `pede_pro_garcom()` e `chama_truco()`
 - Condicionais e laços: `se_ta_pago` (`if`), `se_nao` (`else`), `enche_o_copo` (`while`), `rodada` (`for`)
+
+---
+
+## 📄 Documentação
+
+Para conferir o detalhamento técnico completo da linguagem, regras gramaticais e funcionamento dos analisadores léxico e sintático, acesse o documento oficial:
+
+- 📖 [Documentação dos Analisadores Léxico e Sintático (PDF)](docs/Analisador_Léxico_e_Sintático_da_linguagem_buteCo.pdf)
