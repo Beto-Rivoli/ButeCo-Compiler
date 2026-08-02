@@ -83,7 +83,7 @@ Para rodar os arquivos de exemplo `.btc`, passe o arquivo como argumento:
 
 ---
 
-## Logs de execução
+## Registros de execução
 
 Sempre que um programa válido é executado, o analisador léxico registra os tokens lidos e seus significados.
 
